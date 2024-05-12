@@ -6,7 +6,7 @@ local keySystem = {}
 keySystem.validKeys = fakeLocalStorage.validKeys or {} -- 从存储中读取有效密钥或初始化一个空表
 
 -- 固定密钥值
-local fixedKey = "Key_12345"
+local fixedKey = "Key_28455c83858256a8356953b28567c"
 
 -- 设置固定密钥的函数
 function keySystem.setFixedKey()
