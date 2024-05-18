@@ -6,7 +6,7 @@ local keySystem = {}
 keySystem.validKeys = fakeLocalStorage.validKeys or {} -- 从存储中读取有效密钥或初始化一个空表
 
 -- 固定密钥值
-local fixedKey = "Key_28455c83858256a8356953b28567c"
+local fixedKey = "key_96788990547ab775890"
 
 -- 设置固定密钥的函数
 function keySystem.setFixedKey()
@@ -27,8 +27,8 @@ end
 
 -- 密钥验证成功后执行的脚本
 function keySystem.runScript()
-    print("密钥验证成功，执行脚本...")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Mercury/main/Mercury.lua"))()
+    print("key is exeute")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Trauma-Hub-V4/main/V4Hub.lua"))()
 end
 
 -- 关闭密钥输入UI的函数
@@ -47,7 +47,7 @@ textBox.PlaceholderText = "请输入密钥..."
 local submitButton = Instance.new("TextButton", screenGui)
 submitButton.Size = UDim2.new(0, 100, 0, 50)
 submitButton.Position = UDim2.new(0.5, 100, 0.5, -25)
-submitButton.Text = "提交"
+submitButton.Text = "confirm key"
 
 -- 添加新按钮
 local newButton = Instance.new("TextButton", screenGui)
@@ -63,14 +63,14 @@ submitButton.MouseButton1Click:Connect(function()
         keySystem.closeKeyUI(screenGui)
     else
         textBox.Text = ""
-        textBox.PlaceholderText = "密钥无效，请重试"
+        textBox.PlaceholderText = "key not compatible"
     end
 end)
 
 -- 新按钮的事件处理
 newButton.MouseButton1Click:Connect(function()
-    print("新按钮被点击，执行额外的脚本...")
-    setclipboard("https://workink.net/1UMB/lw305xgt")
+    print("The link is copy to you clipboard")
+    setclipboard("https://workink.net/1UMB/lwbe1c0i")
 end)
 
 -- 设置固定密钥
