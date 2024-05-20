@@ -1,9 +1,9 @@
 print(os.date("%B"))
 
-print(wait 3second)
+print("wait 3second")
 wait(3)
 
-print(Key system loading!)
+print("Key system loading!")
 
 -- 假设的本地存储机制
 local fakeLocalStorage = {}
