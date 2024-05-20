@@ -1,3 +1,10 @@
+print(os.date("%B"))
+
+print(wait 3second)
+wait(3)
+
+print(Key system loading!)
+
 -- 假设的本地存储机制
 local fakeLocalStorage = {}
 
@@ -70,7 +77,7 @@ end)
 -- 新按钮的事件处理
 newButton.MouseButton1Click:Connect(function()
     print("The link is copy to you clipboard")
-    setclipboard("https://workink.net/1UMB/lwbe1c0i")
+    setclipboard("https://workink.net/1UMB/Keypoint")
 end)
 
 -- 设置固定密钥
