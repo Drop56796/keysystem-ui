@@ -35,7 +35,7 @@ end
 -- 密钥验证成功后执行的脚本
 function keySystem.runScript()
     print("key is exeute")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Mercury/main/Mercury.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Noob/main/Nope.lua"))()
 end
 
 -- 关闭密钥输入UI的函数
